@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    // Unwind Segue의 도착지가 되는 메소드
+    @IBAction func unwindToVC(_ segue: UIStoryboardSegue){
+        
+    }
 
 }
 
